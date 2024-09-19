@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Sofadi One;
+}
+.container {
+  background-image: url(gambar/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.container .judul {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.container .judul span {
+  color: rgb(183, 117, 226);
+}
+.container .row {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  background-color: rgb(207, 207, 207);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  width: 55rem;
+  border: 1px solid rgba(107, 104, 104, 0.813);
+}
+.content img {
+  height: 400px;
+  margin: 0.2rem 0;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.content .paragraph {
+  margin: 0.8rem;
+  font-size: 1.2rem;
+  width: 50%;
+}
+.content .paragraph span {
+  color: rgb(183, 117, 226);
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+  .content {
+    width: 38rem;
+    padding: 0.8rem 0;
+  }
+  .content .paragraph {
+    width: 80%;
+  }
+}
